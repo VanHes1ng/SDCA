@@ -74,7 +74,7 @@ ax.scatter(price_data.index[above_threshold], price_data['BTC-USD'][above_thresh
 # Add colorbar
 cbar = plt.colorbar(sc, ax=ax)
 
-z_val = price_data['Z_Diff']*-1
+
 cbar.set_label('Z-score of Difference')
 
 # Set labels and title
@@ -106,6 +106,15 @@ and visualizes price trends with gradient colors.
 aiming for disciplined, data-driven investment strategies.
 
 ''')
+
+z_val = round(price_data['Z_Diff'][-1], 2)
+z_delta = round(price_data['Z_Diff'][-2]-price_data['Z_Diff'][-1], 2)
+
+c3.write("---")
+c3.metric(label="**Current Z score**", 
+    value=z_val, 
+    delta=z_delta,
+    delta_color="inverse")
 
 c2.write("#")
 c2.write("""
