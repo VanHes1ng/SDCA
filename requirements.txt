@@ -1,7 +1,4 @@
 streamlit
-numpy
 matplotlib
-python-binance
-seaborn
 pandas
-cryptocompare
+yahoo-finance
