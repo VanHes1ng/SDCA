@@ -52,7 +52,6 @@ ax.plot(price_data.index, price_data['SMA_BTC'],
 # Add marks below bars where Z-score of difference is below -1
 [c1, c2, c3, c4] = st.columns([1, 10, 4, 1])
 c3.write("#")
-c3.write("###")
 
 c3.markdown("""<hr style="height:4px;border:none;color:#333;background-color:#1d9ff0;" /> """, unsafe_allow_html=True)
 
