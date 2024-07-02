@@ -9,7 +9,7 @@ st.set_page_config("Long Term Investing Cypto", "📈", layout="wide", initial_s
 
 # Function to fetch historical data
 def get_historical_data(symbol):
-    data     = yf.download(symbol, period="10y", interval='1d')
+    data     = yf.download(symbol, period="max", interval='1d')
     df       = pd.DataFrame(data)
     df.index = pd.to_datetime(df.index)
     return df
