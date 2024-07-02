@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import yfinance as yf
-from matplotlib.colors import LinearSegmentedColormap
+from   matplotlib.colors import LinearSegmentedColormap
 import streamlit as st
 
 
