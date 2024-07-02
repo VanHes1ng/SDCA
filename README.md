@@ -1,5 +1,4 @@
 
-![plot](images/main.png)
 ### Crypto SDCA System
 
 #### Overview
