@@ -141,7 +141,7 @@ with st.sidebar:
 ---
 - **GitHub:**      https://github.com/VanHes1ng
 - **TradingView:** https://www.tradingview.com/u/VanHe1sing/
-- **Twitter:**     https://x.com/sxJEoRg7wwLR6ug       
+- **Twitter:**     https://x.com/Van_He1sing    
 - **Telegram:**    t.me/IvanKocherzhat
 
 ## Crated by @VanHelsing
